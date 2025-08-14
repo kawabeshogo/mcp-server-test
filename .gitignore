@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual envs / uv cache
+.venv/
+.uv/
+.pytest_cache/
+
+# Editors
+.vscode/.ropeproject
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage / build
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.mypy_cache/
+
+# MCP specific
+*.mcp
+.mcp_cache/
